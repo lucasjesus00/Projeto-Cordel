@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+/*
+passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/*
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+:root{
+    --fonte01 :verdana, geneva, tahoma, sans-serif;
+    --fonte02:"Passion One", sans-serif;
+    --fonte03: "Tangerine", cursive;;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--fonte01);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family:var(--fonte02) ;
+    font-size:10vw;
+    font-weight: bold;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+section{
+    font-family: var(--fonte03);
+    font-weight: 700;
+    font-size: 4vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;  
+    padding-left: 30px;
+    line-height: 1.5em;
+}
+section > p{
+    padding-bottom: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.384);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem >p{
+    display: inline-block;
+      background-color: rgba(0, 0, 0, 0.493);
+      border-radius: 20px;
+      padding: 5px;
+      text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+#img02{
+    background-image:url('../imagens/background002.jpg');
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
